@@ -1,0 +1,69 @@
+.time{
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
+    width: 450px;
+    height: 450px;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 650px;
+    
+}
+
+@keyframes timeBallAnimation {
+    
+    50%{transform: translateX(202px);}
+    
+}
+
+.timeBallArea{
+
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    left: 50%;
+    top: 17%;
+    transform: translate(-50%);
+    width: 235px;
+    height: 23px;
+    border: 2px black solid;
+    border-radius: 20px;
+    
+}
+
+.timeBall{
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    left: 5%;
+    top: 0;
+    transform: translate(-50%);
+    width: 20px;
+    height: 20px;
+    border: 1px solid #a355ff;
+    background-color: #a355ff;
+    border-radius: 30px;
+    animation: timeBallAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+.currentTime{
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%);
+    font-size: 75px;
+    color: rgb(83, 18, 145);
+
+}
+
